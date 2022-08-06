@@ -213,6 +213,19 @@
     minimatch "^3.1.2"
     strip-json-comments "^3.1.1"
 
+"@gqty/cli@^3.3.1-alpha-74109b4.0":
+  version "3.3.1-alpha-74109b4.0"
+  resolved "https://registry.yarnpkg.com/@gqty/cli/-/cli-3.3.1-alpha-74109b4.0.tgz#58c98ad2cfec0bc2bd3c8a17390916adda781240"
+  integrity sha512-8nRWbSDODsAneUFiVafa4xhaRwxPYUKUv06XBmTZhBBZjU3tpJcR3jSsF1pVltnLFCkSdMZNYoXLPaINREe/zQ==
+  dependencies:
+    gqty "^2.3.0-alpha-74109b4.0"
+    undici "^5.5.1"
+
+"@gqty/utils@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@gqty/utils/-/utils-1.0.0.tgz#5f954c95721244aa1e59534695a1c1e8d3877225"
+  integrity sha512-QJMlzts//d0H5mlekOZgx1a4KsTYXfxmRhhx8g/8mvzdaNVPxhFzCsv3+ljTOzbW3A08qy4jXQPWAMoTefSJDQ==
+
 "@humanwhocodes/config-array@^0.10.4":
   version "0.10.4"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.10.4.tgz#01e7366e57d2ad104feea63e72248f22015c520c"
@@ -1505,6 +1518,13 @@ globby@^11.1.0:
     merge2 "^1.4.1"
     slash "^3.0.0"
 
+gqty@^2.3.0-alpha-74109b4.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/gqty/-/gqty-2.3.0.tgz#8030ef9b162fe60a76d5c821854312c009aa87b2"
+  integrity sha512-2YnbUHMYsWRB/J2Rc8ttVTcIEwLs1v0XC8owc+gCxoGw5k6Xjfp8OgB0EjuPos8xQhgqX8rZ14S48GAFLP+WBA==
+  dependencies:
+    "@gqty/utils" "^1.0.0"
+
 graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   version "4.2.10"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
@@ -1514,6 +1534,11 @@ grapheme-splitter@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/grapheme-splitter/-/grapheme-splitter-1.0.4.tgz#9cf3a665c6247479896834af35cf1dbb4400767e"
   integrity sha512-bzh50DW9kTPM00T8y4o8vQg89Di9oLJVLW/KaOGIXJWP/iqCN6WKYkbNOF04vFLJhwcpYUh9ydh/+5vpOqV4YQ==
+
+graphql@^16.5.0:
+  version "16.5.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.5.0.tgz#41b5c1182eaac7f3d47164fb247f61e4dfb69c85"
+  integrity sha512-qbHgh8Ix+j/qY+a/ZcJnFQ+j8ezakqPiHwPiZhV/3PgGlgf96QMBB5/f2rkiC9sgLoy/xvT6TSiaf2nTHJh5iA==
 
 hard-rejection@^2.1.0:
   version "2.1.0"
@@ -2943,6 +2968,11 @@ unbox-primitive@^1.0.2:
     has-bigints "^1.0.2"
     has-symbols "^1.0.3"
     which-boxed-primitive "^1.0.2"
+
+undici@^5.5.1:
+  version "5.8.1"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-5.8.1.tgz#511d43ff6be02f84ec2513ae7f4b07c589319272"
+  integrity sha512-iDRmWX4Zar/4A/t+1LrKQRm102zw2l9Wgat3LtTlTn8ykvMZmAmpq9tjyHEigx18FsY7IfATvyN3xSw9BDz0eA==
 
 universalify@^2.0.0:
   version "2.0.0"

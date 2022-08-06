@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "lint:fix": "yarn lint --fix",
-    "lint:staged": "lint-staged"
+    "lint:staged": "lint-staged",
+    "generate": "gqty generate"
   },
   "dependencies": {
     "next": "12.2.4",
@@ -19,11 +20,13 @@
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
+    "@gqty/cli": "^3.3.1-alpha-74109b4.0",
     "@types/node": "18.6.4",
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
     "eslint": "8.21.0",
     "eslint-config-next": "12.2.4",
+    "graphql": "^16.5.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "typescript": "4.7.4"

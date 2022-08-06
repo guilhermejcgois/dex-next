@@ -17,8 +17,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['react'
-  ],
+  plugins: ['react'],
   settings: {
     react: {
       version: 'detect',
@@ -27,4 +26,7 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 'off'
   },
+  ignorePatterns: [
+    "gqty"
+  ]
 };

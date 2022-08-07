@@ -1,5 +1,8 @@
 {
   "*.{tsx,ts}": [
-    "yarn lint"
+    "yarn lint:ts"
+  ],
+  "styles.ts": [
+    "yarn lint:css"
   ]
 }

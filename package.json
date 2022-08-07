@@ -7,15 +7,19 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "lint:fix": "yarn lint --fix",
+    "lint": "yarn lint:css && yarn lint:ts",
+    "lint:css": "stylelint './src/**/styles.ts'",
+    "lint:css:fix": "stylelint './src/**/styles.ts' --fix",
+    "lint:ts": "next lint",
+    "lint:ts:fix": "yarn lint --fix",
     "lint:staged": "lint-staged",
     "generate": "gqty generate"
   },
   "dependencies": {
     "next": "12.2.4",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.0.3",
@@ -30,6 +34,10 @@
     "graphql": "^16.5.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
+    "stylelint": "^14.9.1",
+    "stylelint-config-recommended": "^8.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0",
     "typescript": "4.7.4"
   }
 }

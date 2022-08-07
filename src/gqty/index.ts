@@ -19,7 +19,7 @@ const queryFetcher: QueryFetcher = async function (
   fetchOptions
 ) {
   // Modify "/api/graphql" if needed
-  const response = await fetch("/api/graphql", {
+  const response = await fetch("https://dex-server.herokuapp.com/graphql", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",

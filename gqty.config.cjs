@@ -2,7 +2,7 @@
  * @type {import("@gqty/cli").GQtyConfig}
  */
 const config = {
-  react: true,
+  react: false,
   scalarTypes: { DateTime: "string" },
   introspection: {
     endpoint: "https://dex-server.herokuapp.com/",

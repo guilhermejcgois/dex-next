@@ -1,6 +1,7 @@
 import { PropsWithServerCache } from '@gqty/react';
 import { GetStaticProps } from 'next';
 import Image from 'next/image';
+import React from 'react';
 import { useState } from 'react';
 import { prepareReactRender, useHydrateCache, useQuery } from '../../gqty';
 
@@ -41,7 +42,7 @@ const PokemonsPage = ({ cacheSnapshot }: PageProps) => {
 
 export default PokemonsPage;
 
-export const getServerStaticProps: GetStaticProps<PageProps> = async () => {
+export const getStaticProps: GetStaticProps<PageProps> = async () => {
   const { cacheSnapshot } = await prepareReactRender(
     <PokemonsPage />
   );

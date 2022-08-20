@@ -48,10 +48,16 @@
     "graphql": "^16.5.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
+    "msw": "^0.44.2",
+    "msw-storybook-addon": "^1.6.3",
+    "storybook-addon-next": "^1.6.7",
     "stylelint": "^14.9.1",
     "stylelint-config-recommended": "^8.0.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-processor-styled-components": "^1.10.0",
     "typescript": "4.7.4"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }

@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: grid;
   grid-template-columns: 72px 1px 72px;
-  grid-template-rows: 40pxpx;
+  grid-template-rows: 40px;
   gap: 8px;
 `;
 

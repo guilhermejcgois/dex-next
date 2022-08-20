@@ -2,7 +2,7 @@
   "*.{tsx,ts}": [
     "yarn lint:ts"
   ],
-  "styles.ts": [
+  "**/styles.ts*": [
     "yarn lint:css"
   ]
 }

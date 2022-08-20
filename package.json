@@ -15,7 +15,8 @@
     "lint:staged": "lint-staged",
     "generate": "gqty generate",
     "storybook": "start-storybook -p 6006 -s ./public",
-    "build-storybook": "build-storybook -s ./public"
+    "build-storybook": "build-storybook -s ./public",
+    "chromatic": "chromatic"
   },
   "dependencies": {
     "@styled-icons/foundation": "^10.34.0",
@@ -42,6 +43,7 @@
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
     "babel-loader": "^8.2.5",
+    "chromatic": "^6.7.4",
     "eslint": "8.21.0",
     "eslint-config-next": "12.2.4",
     "eslint-plugin-storybook": "^0.6.3",
